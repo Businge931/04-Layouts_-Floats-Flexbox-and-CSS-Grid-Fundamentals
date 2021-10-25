@@ -1,0 +1,143 @@
+.main-container {
+  border: 4px solid black;
+  width: 600px;
+  margin: 40px auto;
+  position: relative;
+}
+.main-header {
+  height: 50px;
+  background-color: gray;
+  display: flex;
+  width: 100%;
+  /* align-items: flex-start;
+  gap: 40px; */
+}
+.p-header {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.sale {
+  color: white;
+  background-color: red;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  position: absolute;
+  padding: 2px;
+  top: -28px;
+  left: -28px;
+  /* order: -1; */
+}
+.color-1 {
+  width: 15px;
+  height: 15px;
+  background-color: black;
+}
+.color-2 {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+}
+.color-3 {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+}
+.color-4 {
+  width: 15px;
+  height: 15px;
+  background-color: yellow;
+}
+.color-5 {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+}
+.color-6 {
+  width: 15px;
+  height: 15px;
+  background-color: brown;
+}
+.colors {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.p-1 {
+  font-weight: bold;
+
+  font-family: sans-serif;
+  font-style: normal;
+}
+.p-2 {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: normal;
+  color: gray;
+}
+.p-3 {
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: normal;
+}
+
+.more-info:link,
+.more-info:visited,
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+  color: magenta;
+}
+
+.product-details {
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: inherit;
+}
+.product-list {
+  list-style: square;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+.last-item {
+  text-align: center;
+  width: 100%;
+  border-top: 2px solid black;
+  color: brown;
+  background-color: black;
+  padding: 0;
+  height: 30px;
+  cursor: pointer;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+}
+.last-item:hover {
+  color: black;
+  background-color: white;
+  border-top: 4px solid black;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+.container-1 {
+  flex: 1;
+}
+.container-2 {
+  flex: 1;
+}
+.container-3 {
+  flex: 1;
+}
